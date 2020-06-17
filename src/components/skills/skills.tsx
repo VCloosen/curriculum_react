@@ -7,9 +7,9 @@ function Skills() {
         <div className="title">
             <h2>Skills</h2>
         </div>
-        <div className="content flex">
-            <div className="category">
-                <div className="languages flex">
+        <div className={`flex ${style.content}`}>
+            <div className={style.category}> 
+                <div className={`flex ${style.languages}`}>
                     <h5>Languages</h5>
                     <ul>
                         <li><b>French </b>: <br/> mother tongue</li>
@@ -17,47 +17,47 @@ function Skills() {
                         <li><b>English</b> : B2 </li>
                     </ul>
                 </div>
-                <div className="software flex">
+                <div className={`flex ${style.software}`}>
                     <h5>Software</h5>
                     <ul>
                         <li>Daily use</li>
                         <li>
-                            <img src="images/logo-word.png" alt="Word" className="icone-software"/>
-                            <img src="images/logo-excel.png" alt="Excel" className="icone-software"/><br/>
-                            <img src="images/logo-powerpoint.png" alt="PowerPoint" className="icone-software"/>
-                            <img src="images/logo-keynotes.png" alt="KeyNotes" className="icone-software"/>
+                            <img src="images/logo-word.png" alt="Word" className={style.iconeSoftware}/>
+                            <img src="images/logo-excel.png" alt="Excel" className={style.iconeSoftware}/><br/>
+                            <img src="images/logo-powerpoint.png" alt="PowerPoint" className={style.iconeSoftware}/>
+                            <img src="images/logo-keynotes.png" alt="KeyNotes" className={style.iconeSoftware}/>
                         </li>
                     </ul>
                 </div>
-                <div className="pm flex">
+                <div className={`flex ${style.pm}`}>
                     <h5>Project <br/>tools</h5>
                     <ul>
                         <li>Daily use</li>
-                        <li><img src="images/logo-jira.png" alt="Jira" className="icone-software"/>
-                            <img src="images/logo-teams.png" alt="Teams" className="icone-software"/>
+                        <li><img src="images/logo-jira.png" alt="Jira" className={style.iconeSoftware}/>
+                            <img src="images/logo-teams.png" alt="Teams" className={style.iconeSoftware}/>
                         </li>
                     </ul>
                 </div>
-                <div className="web flex">
+                <div className={`flex ${style.web}`}>
                     <h5>Web integration</h5>
                     <ul>
                         <li>Basis knowledge</li>
-                        <li><img src="images/logo-html.png" alt="Html" className="icone-web"/>
-                            <img src="images/logo-css.png" alt="CSS" className="icone-web"/>
-                            <img src="images/logo-javascript.jpg" alt="JS" className="icone-web"/><br/>
-                            <img src="images/logo-jquery.jpg" alt="JQuery" className="icone-web"/>
-                            <img src="images/logo-bootstrap.png" alt="Bootstrap" className="icone-web"/>
+                        <li><img src="images/logo-html.png" alt="Html" className={style.iconeSoftware}/>
+                            <img src="images/logo-css.png" alt="CSS" className={style.iconeSoftware}/>
+                            <img src="images/logo-javascript.jpg" alt="JS" className={style.iconeSoftware}/><br/>
+                            <img src="images/logo-jquery.jpg" alt="JQuery" className={style.iconeSoftware}/>
+                            <img src="images/logo-bootstrap.png" alt="Bootstrap" className={style.iconeSoftware}/>
 
                         </li>
                     </ul>
 
                 </div>
-                <div className="design flex">
+                <div className={`flex ${style.design}`}>
                     <h5>Design</h5>
                     <ul>
                         <li>Basis knowledge</li>
                         <li>
-                            <img src="images/logo-indesign.png" alt="InDesign" className="icone-web"/>
+                            <img src="images/logo-indesign.png" alt="InDesign" className={style.iconeSoftware}/>
                         </li>
                     </ul>
                 </div>
