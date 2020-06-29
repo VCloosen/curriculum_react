@@ -2,6 +2,13 @@ import React from "react";
 import style from "./footer.module.scss";
 import {Row} from 'reactstrap';
 import {Col} from 'reactstrap';
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { NavLink } from 'react-router-dom';
+
 function Footer() {
   return (
     
