@@ -2,6 +2,7 @@ import React from "react";
 import style from "./footer.module.scss";
 function Footer() {
   return (
+    
     <footer className={style.footer}>
       <Row className="mt-4 m-2">
         <Col md={3}>
