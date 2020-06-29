@@ -2,8 +2,8 @@ import React from "react";
 import style from './skills.module.scss';
 function Skills() {
   return (
-        <section id="skills">
-        <div className="line-divider-grey"></div>
+        <section id="skills">     
+        <div className={style.lineDividerGrey}></div>
         <div className="title">
             <h2>Skills</h2>
         </div>
