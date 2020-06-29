@@ -1,9 +1,11 @@
 import React from "react";
 import style from "./footer.module.scss";
+import {Row} from 'reactstrap';
+import {Col} from 'reactstrap';
 function Footer() {
   return (
     
-    <footer className={style.footer}>
+    <footer className={style.footer}> 
       <Row className="mt-4 m-2">
         <Col md={3}>
           <h6>Réseaux sociaux</h6>
